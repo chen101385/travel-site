@@ -5,17 +5,17 @@ del = require('del');
 
 
 var config = {
-    mode: {
-        css: {
-            sprite: 'sprite.svg',
-          render: {
-              css: {
-                  template: './gulp/templates/sprite.css'
-              }
-          }  
-        }
+  mode: {
+    css: {
+      sprite: 'sprite.svg',
+        render: {
+          css: {
+            template: './gulp/templates/sprite.css'
+          }
+        }  
+      }
     }
-}
+  }
 
 gulp.task('beginClean', function() {
     return del(['./app/temp/sprite', './app/assets/images/sprites']);
