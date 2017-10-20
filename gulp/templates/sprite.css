@@ -10,13 +10,14 @@ do not edit modules/_sprite directly as it is generated automatically by Gulp.  
 
 {{#shapes}}
   {{#first}}
-       .icon {
-           background-image: url('/assets/images/sprites/{{{sprite}}}');
-};
+    .icon {
+      background-image: url('/assets/images/sprites/{{{sprite}}}');
+    }
   {{/first}}
-.icon--{{base}} {
+
+  .icon--{{base}} {
     width: {{width.outer}}px;
     height: {{height.outer}}px;
     background-position: {{position.relative.xy}};
-}
+  }
 {{/shapes}}
