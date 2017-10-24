@@ -18,7 +18,8 @@
 @import "modules/_site-header";
 @import "modules/_primary-nav";
 @import "modules/_reveal-item";
-
+@import "modules/_modal";
+@import "modules/_social-icons";
 
 /* .css in file name not necessary 
 variables doc needs to be imported before any files that use variables
